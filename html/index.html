@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+
+    <title>Desktop Manager </title>
+  
+	<!-- Vendors Style-->
+	<link rel="stylesheet" href="static/css/vendors_css.css">
+	  
+	<!-- Style-->  
+	<link rel="stylesheet" href="static/css/style.css">
+	<link rel="stylesheet" href="static/css/skin_color.css">	
+
+</head>
+<body class="hold-transition light-skin sidebar-mini theme-primary fixed" style="-webkit-app-region: drag">
+<!-- Site wrapper -->
+<div class="wrapper">
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper" style="margin-left:0px;padding-top:0px">
+	  <div class="container-full">
+		<!-- Main content -->
+		<section class="content">
+			<div class="row" id="card_icons">
+			  
+			</div>
+		</section>
+		<!-- /.content -->
+	  </div>
+  </div>
+  <!-- /.content-wrapper -->
+  <!-- Control Sidebar -->
+  <!-- /.control-sidebar -->
+  
+</div>
+<!-- ./wrapper -->
+	
+
+	
+	<!-- Page Content overlay -->
+	
+	
+	<script src="static/js/vendors.min.js"></script>
+	<script src="static/js/chat-popup.js"></script>
+    <script src="static/js/feather.min.js"></script>	
+	<script src="static/js/template.js"></script>
+	
+	<!-- EduAdmin App -->
+	<script src="renderer.js"></script>
+	<!-- <script>
+		var sendmessage_flag = true
+		function sendmessage(ele){
+			if (!sendmessage_flag){
+				return 
+			}
+			sendmessage_flag = false
+			$.get(`http://127.0.0.1:18082`,{
+				exec:ele.dataset.exec
+			},(data)=>{
+				sendmessage_flag = true
+				console.log(data)
+			})
+		}
+	</script> -->
+	
+
+</body>
+</html>
